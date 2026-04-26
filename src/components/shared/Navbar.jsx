@@ -23,9 +23,9 @@ function Navbar() {
         {/* Brand */}
         <Link
           to="/"
-          className="text-2xl font-bold text-primary hover:opacity-90 transition-opacity"
+          className="text-3xl font-bold text-primary hover:opacity-90 transition-opacity"
         >
-          Smart<span className="text-foreground">Quiz</span>
+          Knowlegde Knockout Automated Test<span className="text-foreground"> Evaluation using AI</span>
         </Link>
 
         {/* Desktop Menu */}
@@ -35,7 +35,7 @@ function Navbar() {
               <NavLink
                 to={item.path}
                 className={({ isActive }) =>
-                  `text-sm font-medium transition-colors ${
+                  `text-xl font-medium transition-colors ${
                     isActive
                       ? "text-primary"
                       : "text-muted-foreground hover:text-primary"
