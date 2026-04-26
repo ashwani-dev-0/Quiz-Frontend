@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "http://localhost:8181/api",
+  baseURL: "https://quiz-backend-j355.onrender.com/api",
 });
 
 axiosInstance.interceptors.request.use(function (config) {
