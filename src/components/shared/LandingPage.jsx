@@ -114,7 +114,7 @@ const LandingPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "Amit Sharma",
+                name: "Ashwani Singh",
                 image: "https://i.pravatar.cc/100?img=1",
                 feedback:
                   "Smart Quiz made my interview preparation so much easier. The AI quizzes felt personalized and relevant.",
@@ -126,7 +126,7 @@ const LandingPage = () => {
                   "I love the smooth UI and daily quiz reminders. The gamified learning experience keeps me consistent!",
               },
               {
-                name: "Rahul Verma",
+                name: "Harshit Raj",
                 image: "https://i.pravatar.cc/100?img=3",
                 feedback:
                   "The analytics dashboard helps me understand my strengths better. Great for self-improvement.",
@@ -178,6 +178,7 @@ const LandingPage = () => {
       <footer className="w-full py-6 border-t bg-background text-muted-foreground text-sm">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
           <p>© {new Date().getFullYear()} Smart Quiz. All rights reserved.</p>
+          <p className="text-xl text-cyan-700">made by ashwani&harshit✅</p>
           <div className="flex gap-4 mt-3 md:mt-0">
             <a href="#" className="hover:text-foreground">
               Privacy
