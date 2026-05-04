@@ -25,7 +25,7 @@ function Navbar() {
           to="/"
           className="text-3xl font-bold text-primary hover:opacity-90 transition-opacity"
         >
-          Knowlegde Knockout Automated Test<span className="text-foreground"> Evaluation using AI</span>
+          Knowlegde Knockout Automated Test<span className="text-foreground"></span>
         </Link>
 
         {/* Desktop Menu */}
