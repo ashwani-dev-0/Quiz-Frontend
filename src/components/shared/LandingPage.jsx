@@ -178,7 +178,7 @@ const LandingPage = () => {
       <footer className="w-full py-6 border-t bg-background text-muted-foreground text-sm">
         <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
           <p>© {new Date().getFullYear()} Smart Quiz. All rights reserved.</p>
-          <p className="text-xl text-cyan-700">made by ashwani&harshit✅</p>
+          <p className="text-xl text-cyan-700">Made by Ashwani-Singh-❤️</p>
           <div className="flex gap-4 mt-3 md:mt-0">
             <a href="#" className="hover:text-foreground">
               Privacy
